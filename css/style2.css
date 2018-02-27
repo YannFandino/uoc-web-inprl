@@ -1,0 +1,54 @@
+.seccion {
+	text-align: justify;
+	padding: 5px 10px;
+	margin: 10px auto;
+	box-shadow: 0px 0px 2px 2px gray;
+	cursor: pointer;
+}
+
+/*Formulario Nuevo Parte*/
+.parteForm {
+	font-size: 1.2em;
+}
+	.parteForm input[type="text"], .parteForm input[type="number"], 
+    .parteForm input[type="date"], .parteForm input[type="time"], .parteForm select {
+		height: 35px;
+		margin-bottom: 15px;
+		border: none;
+		border-bottom: 2px inset white;
+		font-size: 1em;
+		padding: 0;
+		margin-right: 10px;
+	}
+	input[name="dni"] {
+		width: 25%;
+	}
+	input[name="name"] {
+		width: 70%;
+	}
+	input[name="age"] {
+			width: 10%;
+		}
+	input[name="causa"], input[name="tipoLesion"] {
+			width: 45%;
+		}
+	.parteForm input:focus {
+		outline-color: transparent;
+  		outline-style: none;
+		border-bottom: 2px inset #1A8FD9;
+	}
+
+	.editForm label {
+		display: inline-block;
+		max-width: 150px;
+		vertical-align: middle;
+	}
+/*ERRORES*/
+.error {
+	background: lightgray;
+	width: 80%;
+	margin: 20px auto;
+	font-size: 2em;
+	padding: 10px;
+	box-shadow: 0px 0px 2px 2px gray;
+}

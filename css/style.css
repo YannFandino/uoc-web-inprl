@@ -1,0 +1,200 @@
+/*Reset CSS*/
+html {
+    position: relative; 
+    min-height: 100%;
+}
+html, body {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;	
+}
+
+/*Cabecera*/
+header {
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";
+	font-size: 2em;
+}
+	.logo {
+		vertical-align: text-bottom;
+		margin-left: 5px;
+	}
+	.name {
+	    display: inline-block;
+		margin-left: 15px;
+    }
+
+/*Nav*/
+.menu {
+	margin-top: 10px;
+	background: gray;
+	text-transform: uppercase;
+}
+	.menu ul {
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		display:flex;
+		flex-direction:row;
+	}
+	.menu li {
+	}
+	.menu a {
+		text-decoration:none;
+		display:block;
+		padding:1em;
+		margin-right:0.5em;
+		text-align:center;
+		color:White;
+	}
+	.menu a:hover {background-color:#1A8FD9}
+
+/*Contenido*/
+.content {
+	width: 90%;
+	margin: 15px auto 50px;
+}
+	.who, .where {
+		width: 50%;
+    	box-sizing: border-box;
+		text-align: justify;
+		padding: 15px;
+	}
+	.who {
+		float: left;
+		box-shadow: -2px 0px gray;
+	}
+	.where {
+		float: right;
+		box-shadow: 2px 0px gray;
+	}
+	.clear {
+		clear: both;
+	}
+
+/*Contácto*/
+.contactForm {
+	width: 80%;
+	margin: auto;
+	padding: 20px 10%;
+	background: lightgray;
+	box-shadow: 0px 5px 2px 2px black;
+}
+	.contactInput {
+		width: 100%;
+		height: 40px;
+		margin-bottom: 15px;
+		border: none;
+		border-bottom: 2px inset white;
+		font-size: 1.2em;
+		padding: 0;
+	}
+	.contactInput:focus {
+		outline-color: transparent;
+  		outline-style: none;
+		border-bottom: 2px inset #1A8FD9;
+	}
+	.contactForm textarea {
+		width: 100%;
+		margin-bottom: 15px;
+		border: none;
+		border-bottom: 2px inset lightgray;
+		font-size: 1.2em;
+		padding: 0;
+	}
+	.contactForm textarea:focus {
+		outline-color: transparent;
+  		outline-style: none;
+		border: 2px inset #1A8FD9;
+	}
+	.contactForm button {
+		color: white;
+		font-size: 1.2em;
+		background: #1A8FD9;
+		border: none;
+		padding: 5px;
+		margin: 5px 5px 0 0;
+		cursor: pointer;
+	}
+/* Login */
+.login_cont {
+	display: inline-block;
+}
+	.login {
+		display: none;
+		position: relative;
+		padding: 5px;
+		background: gray;
+	}
+		.login_form input{
+			height: 25px;
+			margin-bottom: 10px;
+			border: none;
+			border-bottom: 2px inset white;
+			font-size: 1.2em;
+			padding: 0;
+		}
+		.login div {
+			color: white;
+			text-align: right;
+		}
+		.login_form button {
+			color: white;
+			font-size: 1.2em;
+			background: #1A8FD9;
+			border: none;
+			padding: 3px;
+			margin: 5px 5px 0 0;
+			cursor: pointer;
+		}
+/*Registro*/
+.cont_registro {
+	display: none;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0,0,0,0.5);
+}
+	.form_registro {
+		position: relative;
+		border-radius: 5px;
+		top: 50%;
+		left: 50%;
+		padding: 20px 15px;
+		transform: translate(-50%, -50%);
+		display:inline-block;
+		background-color: lightgray;
+	}
+		.form_registro input {
+			padding: 0;
+			width: 250px;
+			height: 30px;
+			margin: 0 0 10px 0;
+			font-size: 1.2em;
+			border: none;
+		}
+		.form_registro button {
+			color: white;
+			font-size: 1.2em;
+			background: #1A8FD9;
+			border: none;
+			padding: 3px;
+			margin: 10px 5px 0 0;
+			cursor: pointer;
+		}
+
+/*Footer*/
+footer {
+	background: gray;
+	padding: 10px 0;
+	position: absolute;
+    bottom: 0;
+	width: 100%;
+}
+
+footer p {
+	margin: 0 0 0 10px;
+}

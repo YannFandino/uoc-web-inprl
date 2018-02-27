@@ -1,0 +1,19 @@
+table {
+	margin: 0;
+	padding: 0;
+    border-collapse: collapse;
+}
+tbody {
+	width: 100%;
+}
+td {
+	color: white;
+}
+.impar {
+	background-color: gray;
+	text-align: left;
+}
+.par {
+	background-color: darkgray;
+	text-align: left;
+}
